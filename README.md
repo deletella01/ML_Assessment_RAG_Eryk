@@ -141,7 +141,8 @@ API Usage
 Endpoint: 
 POST /chat
 
-### Test via Postman: POST/http://127.0.0.1:8000/chat
+#### Test via Postman: POST/http://127.0.0.1:8000/chat
+
 Request:
 {
   "question": "What is AI governance?"
