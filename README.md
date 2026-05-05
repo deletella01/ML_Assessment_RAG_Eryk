@@ -141,19 +141,35 @@ API Usage
 Endpoint: 
 POST /chat
 
-Request
+Request:
 {
   "question": "What is AI governance?"
 }
 
-Response
+Response:
 {
-  "answer": "...",
-  "sources": [
-    {
-      "source": "doc1.txt",
-      "chunk_id": 3
-    }
-  ]
+    "answer": "AI governance refers to the process of establishing rules, standards, and norms for the development, deployment, and use of artificial intelligence (AI) systems to ensure that they are safe, ethical, transparent, and beneficial to society. It involves the coordination of various stakeholders, including governments, private companies, research institutions, and civil society organizations, to promote responsible AI innovation and mitigate potential risks and negative consequences.",
+    "sources": [
+        {
+            "source": "1144.txt",
+            "chunk_id": 2
+        },
+        {
+            "source": "1387.txt",
+            "chunk_id": 9
+        },
+        {
+            "source": "1076.txt",
+            "chunk_id": 1
+        },
+        {
+            "source": "307.txt",
+            "chunk_id": 4
+        },
+        {
+            "source": "35.txt",
+            "chunk_id": 1
+        }
+    ]
 }
 ---
