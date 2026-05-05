@@ -151,6 +151,7 @@ Request:
 Response:
 {
     "answer": "AI governance refers to the process of establishing rules, standards, and norms for the development, deployment, and use of artificial intelligence (AI) systems to ensure that they are safe, ethical, transparent, and beneficial to society. It involves the coordination of various stakeholders, including governments, private companies, research institutions, and civil society organizations, to promote responsible AI innovation and mitigate potential risks and negative consequences.",
+    
     "sources": [
         {
             "source": "1144.txt",
