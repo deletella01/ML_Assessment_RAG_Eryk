@@ -57,8 +57,8 @@ Project
 - Reason: local inference, open-source, easy integration
 
 ### 5. Grounding Strategy
-- Answers restricted to retrieved context
-- Explicit fallback if answer is not found
+- Answers restricted to the retrieved context
+- Explicit fallback if the answer is not found
 - Sources returned with each response
 
 ---
@@ -69,7 +69,7 @@ Project
 2. Chunks are embedded and stored in Chroma
 3. Query is embedded at runtime
 4. Top-k relevant chunks are retrieved
-5. LLM generates answer using only retrieved context
+5. LLM generates an answer using only the retrieved context
 
 ---
 
@@ -120,8 +120,8 @@ data/
   ai_policy.txt
   governance_framework.txt
 
-8. Run data ingestion
-python -m app.ingest
+8. Run data ingestion:
+ python -m app.ingest
 
 This step:
 Reads all .txt files
