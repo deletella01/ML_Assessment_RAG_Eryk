@@ -1,3 +1,4 @@
+
 import requests
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
@@ -9,8 +10,11 @@ def generate_answer(prompt):
         json={
             "model": MODEL,
             "prompt": prompt,
-            "stream": False
+            "stream": False,
+            "options": {
+                "temperature": 0,
+                "seed": 42
+            }
         }
     )
-
-    return response.json()["response"]
+    return response.json()["response"].strip()
