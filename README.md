@@ -112,7 +112,9 @@ ollama list
 
 Place your .txt files inside:
 
-/data
+/data.
+
+Get data from https://www.kaggle.com/datasets/umerhaddii/ai-governance-documents-data
 
 Example:
 
